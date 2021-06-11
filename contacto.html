@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <!--permite crear un menu de navegacion-->
+    <nav>
+        <!--lista no ordenada-->
+        <ul class="menu">
+            <li> <a href="./index.html">inicio </a></li><!--elemento de la lista-->
+            <li> <a href="./sobremi.html">sobre mi</a></li><!--elemento de la lista-->
+            <li> <a href="./contacto.html"> contacto </a></li><!--elemento de la lista-->
+        </ul>
+    </nav>
+    
+    <h1>dejame un mensaje</h1>
+
+    <form action="">
+    <!--imputs: son elementos que permiten capturar informacion de un usuario-->
+         <div>
+             <label for="">nombre</label>
+             <input class="input_contacto"  type="text" placeholder="ingresa tu nombre" id="nombre" name="nombre completo"> 
+        </div>
+
+        <div>
+            <label for="">correo</label>
+            <input class="input_contacto" type="text"  placeholder="ingresa tu correo" id="correoelectronico" correo="correo electronico">
+        </div>
+
+        <div>
+            <label for="">contraseña</label>
+            <input class="input_contacto" type="text"  placeholder="ingresa tu contraseña" id="contraseñadecorreoelectronico" name="'clave o contraseña de corrreo electronico">
+        </div>
+
+        <div>
+            <label for="">celular</label>
+            <input class="input_contacto"  type="number" placeholder="ingresa tu numero de celular" id="numerodecelular" name="numero de telefono celular   ">
+        </div>
+
+        <div>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="ingresa un mensaje"></textarea>
+            
+        </div>
+
+       <div class="boton">
+
+    <button>enviar</button>
+       </div> 
+    
+
+    
+    </form>
+      
+
+</body>
+</html>

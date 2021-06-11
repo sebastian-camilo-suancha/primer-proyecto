@@ -1,0 +1,207 @@
+/*estilos para el tirulo*/
+h1{
+    color:blue;  /*cambiar color de letra*/
+    text-align: center; /*cambiar posision de el titulo*/
+    background-color: black;  /*cambiar color de fondo*/
+    font-size: 50px;  /*cambiar tamaño de letra*/
+    font-family: 'Courgette', cursive;  /*cambiar titulo de letra*/
+}
+/*todo lo que esta dentro de body*/
+body{
+    background-color: black;
+    font-family: 'Courgette', cursive;
+}
+
+p{
+    color:blue;
+    font-size: 20px;
+}
+
+h2{
+    color: black;
+}
+
+
+.menu{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none; /*quita los puntos de los elementos de la lista*/
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+}
+
+.input_contacto{
+    width: 80%; /*ancho de un elemento*/
+    border: 2px blue solid;
+    margin-top: 2px;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    text-align: center;
+    width: 50%;
+    color: blue;
+    margin-left: 25%;
+}
+
+
+
+.padre{
+     display: flex;
+     justify-content: space-between;
+}
+
+
+.padre div{
+    width: 80%;
+}
+
+.personajes{
+      width: 25%;
+      text-align: center;
+      border: blue 3px solid;
+}
+
+.todos-personajes{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+}
+
+h1{
+    coloR:red;  
+    text-align: center; 
+    background-color: black;
+    font-size: 50px;  
+    font-family: 'Courgette', 
+}
+body{
+    background-color: black;
+    font-family: 'Courgette', cursive;
+}
+
+p{
+    color:red;
+    font-size: 20px;
+}
+
+h2{
+    color: black;
+}
+
+
+.menu{
+    color: red;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+nav{
+    background-color: black;
+    height: 80px;
+}
+
+.input_contacto{
+    width: 80%; 
+    border: 2px rebeccapurple solid;
+    margin-top: 2px;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    text-align: center;
+    width: 50%;
+    color: red;
+    margin-left: 25%;
+}
+
+
+
+.padre{
+     display: flex;
+     justify-content: space-between;
+}
+
+
+.padre div{
+    width: 80%;
+}
+
+
+
+
+.personajes{
+      width: 25%;
+      text-align: center;
+      border: red 3px solid;
+}
+
+
+
+
+.todos-personajes{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px;
+}
+
+
+
+
+.bg-red{
+    break-inside: red;
+}
+
+
+
+
+.alto-carousel{
+    height: 500px;
+}
+
+
+
+
+.parrafo-descripcion{
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
